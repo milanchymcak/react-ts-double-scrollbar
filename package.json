@@ -1,8 +1,10 @@
 {
   "name": "react-ts-double-scrollbar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add a horizontal scrollbar to the of an a element.",
   "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/DoubleScrollbar.d.ts",
   "scripts": {
     "test": "jest",
     "build": "rollup -c"
